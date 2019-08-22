@@ -19,8 +19,6 @@ function atoms=make_graphene(a,N1,N2)
 
     endfor
   endfor
-
-  ## Save in xyz format
   
   fid=fopen("graphene.xyz","w");
   fprintf(fid,"%d\n\n",Nats_supercell);
